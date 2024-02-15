@@ -481,6 +481,10 @@ PRODUCT_PACKAGES += \
     libsensorndkbridge \
     libpower.vendor
 
+# Shims
+PRODUCT_PACKAGES += \
+    libpiex_shim
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
