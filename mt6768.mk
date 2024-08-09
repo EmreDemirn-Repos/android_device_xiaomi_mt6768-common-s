@@ -28,7 +28,8 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.service \
     android.hardware.audio@7.0-impl \
     android.hardware.audio.effect@7.0-impl \
-    android.hardware.soundtrigger@2.3-impl
+    android.hardware.soundtrigger@2.3-impl \
+    android.hardware.audio.sounddose-vendor-impl
 
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
@@ -355,7 +356,6 @@ PRODUCT_PACKAGES += \
 
 # Use proprietary Xiaomi USB gadget init instead of common MediaTek one
 $(call soong_config_set_bool,mediatek_gadget,use_custom_usb_gadget_rc,true)
-
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
