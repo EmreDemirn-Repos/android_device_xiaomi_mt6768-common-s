@@ -13,6 +13,12 @@ from extract_utils.main import (
     ExtractUtilsModule,
 )
 
+namespace_imports = [
+    'hardware/mediatek',
+    'hardware/xiaomi',
+    'vendor/xiaomi/rosemary'
+]
+
 blob_fixups: blob_fixups_user_type = {
     'lib64/libshowlogo.so': blob_fixup()
         .add_needed('libshim_showlogo.so'),
@@ -48,6 +54,7 @@ module = ExtractUtilsModule(
     'mt6768-common',
     'xiaomi',
     blob_fixups=blob_fixups,
+    namespace_imports=namespace_imports,
     add_firmware_proprietary_file=True,
 )
 
