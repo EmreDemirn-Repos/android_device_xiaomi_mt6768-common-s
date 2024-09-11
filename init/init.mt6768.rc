@@ -1095,6 +1095,9 @@ service mi_thermald /vendor/bin/mi_thermald
     user root
     group system
 
+on property:sys.boot_completed=1
+    restart android-hardware-media-c2-hal-1-2
+
 # add PcbaConfigSet
 service PcbaConfigSet /system/vendor/bin/PcbaConfigSet
     class core
