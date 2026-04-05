@@ -887,9 +887,7 @@ system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.dmc@1.1.so
 system_ext/lib64/vendor.mediatek.hardware.dmc@1.2.so
 system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
-
-# IMS-System - from vnd_earth-user 12 TP1A.220624.014 V14.0.4.0.TCVMIXM release-keys
--priv-app/ImsService/ImsService.apk|f60c60110ef965cc21adfd8ff605f091d715ff45
+-priv-app/ImsService/ImsService.apk
 
 # Power
 vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service
