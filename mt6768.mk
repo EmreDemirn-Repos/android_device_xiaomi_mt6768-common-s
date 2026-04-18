@@ -203,6 +203,9 @@ PRODUCT_PACKAGES += \
     libpuresoftkeymasterdevice.vendor \
     libsoft_attestation_cert.vendor
 
+PRODUCT_PACKAGES += \
+    libshim_beanpod
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.mt6768
