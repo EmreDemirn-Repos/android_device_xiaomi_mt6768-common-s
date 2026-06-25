@@ -16,7 +16,7 @@ from extract_utils.main import (
 namespace_imports = [
     'hardware/mediatek',
     'hardware/xiaomi',
-    'vendor/xiaomi/rosemary'
+    'vendor/xiaomi/mt6768-common'
 ]
 
 blob_fixups: blob_fixups_user_type = {
@@ -44,7 +44,7 @@ blob_fixups: blob_fixups_user_type = {
 	.replace_needed('libsink.so', 'libsink-mtk.so')
     'vendor/bin/hw/mtkfusionrild': blob_fixup()
 	.add_needed('libutils-v32.so')
-    ('vendor/lib/libnvram.so', 'vendor/lib/libsysenv.so', 'vendor/lib64/libnvram.so', 'vendor/lib64/libsysenv.so'): blob_fixup()
+    ('vendor/lib/libnvram.so', 'vendor/lib/libsysenv.so', 'vendor/lib64/libnvram.so', 'vendor/lib64/libsysenv.so', 'vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron'): blob_fixup()
 	.add_needed('libbase_shim.so')
     ('vendor/lib64/libmtkcam_grallocutils.so', 'vendor/lib64/libmtkisp_metadata.so'): blob_fixup()
 	.replace_needed('libui.so', 'libui-v34.so')
