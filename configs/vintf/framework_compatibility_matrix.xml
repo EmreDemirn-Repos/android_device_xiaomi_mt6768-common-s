@@ -4,6 +4,8 @@
         <version>1.0-6</version>
         <interface>
             <name>IRadio</name>
+            <instance>slot1</instance>
+            <instance>slot2</instance>
             <instance>em1</instance>
             <instance>em2</instance>
             <instance>imsAospSlot1</instance>
@@ -13,6 +15,7 @@
         </interface>
         <interface>
             <name>ISap</name>
+            <instance>slot1</instance>
             <instance>slot2</instance>
         </interface>
     </hal>
