@@ -817,7 +817,6 @@ vendor/lib64/android.hardware.power-service-mediatek.so
 # Radio
 vendor/bin/hw/mtkfusionrild
 vendor/bin/hw/vendor.mediatek.hardware.mms@1.6-service
-vendor/bin/ccci_fsd
 vendor/bin/ccci_mdinit
 vendor/bin/ccci_rpcd
 vendor/bin/gsm0710muxd
