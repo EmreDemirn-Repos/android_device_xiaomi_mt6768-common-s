@@ -23,9 +23,9 @@ blob_fixups: blob_fixups_user_type = {
     'lib64/libshowlogo.so': blob_fixup()
         .add_needed('libshim_showlogo.so'),
     ('vendor/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so', 'vendor/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so', 'vendor/lib*/hw/android.hardware.thermal@2.0-impl.so'): blob_fixup()
-        .replace_needed('libutils.so', 'libutils-v32.so')
+        .replace_needed('libutils.so', 'libutils-v32.so'),
     'vendor/lib*/libmtkcam_stdutils.so': blob_fixup()
-        .replace_needed('libutils.so', 'libutils-v32.so')
+        .replace_needed('libutils.so', 'libutils-v32.so'),
     'vendor/lib64/libwifi-hal-mtk.so': blob_fixup()
 	.set_soname('libwifi-hal-mtk.so'),
     'vendor/lib64/libgf_hal.so': blob_fixup()
@@ -37,17 +37,17 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/libmi_watermark.so': blob_fixup()
 	.add_needed('libpiex_shim.so'),
     'system_ext/lib64/libsource.so': blob_fixup()
-	.add_needed('libui_shim.so')
+	.add_needed('libui_shim.so'),
     ('vendor/lib*/libwvhidl.so', 'vendor/lib*/mediadrm/libwvdrmengine.so'): blob_fixup()
-        .add_needed('libcrypto_shim.so')
+        .add_needed('libcrypto_shim.so'),
     'system_ext/lib64/libimsma.so': blob_fixup()
-	.replace_needed('libsink.so', 'libsink-mtk.so')
+	.replace_needed('libsink.so', 'libsink-mtk.so'),
     'vendor/bin/hw/mtkfusionrild': blob_fixup()
-	.add_needed('libutils-v32.so')
+	.add_needed('libutils-v32.so'),
     ('vendor/lib/libnvram.so', 'vendor/lib/libsysenv.so', 'vendor/lib64/libnvram.so', 'vendor/lib64/libsysenv.so', 'vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron', 'vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek'): blob_fixup()
-	.add_needed('libbase_shim.so')
+	.add_needed('libbase_shim.so'),
     ('vendor/lib64/libmtkcam_grallocutils.so', 'vendor/lib64/libmtkisp_metadata.so'): blob_fixup()
-	.replace_needed('libui.so', 'libui-v34.so')
+	.replace_needed('libui.so', 'libui-v34.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
@@ -55,7 +55,7 @@ module = ExtractUtilsModule(
     'xiaomi',
     blob_fixups=blob_fixups,
     namespace_imports=namespace_imports,
-    add_firmware_proprietary_file=True,
+    add_firmware_proprietary_file=False,
 )
 
 if __name__ == '__main__':
