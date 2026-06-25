@@ -519,7 +519,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libunwindstack.vendor \
     libutilscallstack.vendor \
-    libutils-v32
+    libutils-v30 \
+    libutils-v32 \
+    libutils-v34
 
 # Wi-Fi
 PRODUCT_PACKAGES += \
