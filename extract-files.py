@@ -27,7 +27,7 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib*/libmtkcam_stdutils.so': blob_fixup()
         .replace_needed('libutils.so', 'libutils-v32.so'),
     'vendor/lib64/libwifi-hal-mtk.so': blob_fixup()
-	.set_soname('libwifi-hal-mtk.so'),
+	.fix_soname('libwifi-hal-mtk.so'),
     'vendor/lib64/libgf_hal.so': blob_fixup()
         .binary_regex_replace(b'\x00\x14\xa0\x83_\xb8\xfd{C\xa9\xff\x03\x01\x91\xc0\x03_\xd6\xff\x83\x01\xd1\xfd{\x05\xa9\xfdC\x01\x91', b'\x00\x14\xa0\x83_\xb8\xfd{C\xa9\xff\x03\x01\x91\xc0\x03_\xd6\x00\x00\xe0\xd2\xc0\x03_\xd6\xfdC\x01\x91'),
     ('vendor/lib*/libaalservice.so', 'vendor/lib*/libcam.utils.sensorprovider.so'): blob_fixup()
