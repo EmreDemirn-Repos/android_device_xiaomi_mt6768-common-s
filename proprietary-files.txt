@@ -785,8 +785,8 @@ system_ext/lib64/libimsma_socketwrapper.so|1f9b83322c41e5b0a7b3130f74a38ddb14f57
 system_ext/lib64/libmtk_vt_service.so|302d3ab3c5b3fa0107520fe36098b32cd0a8dd96
 system_ext/lib64/libmtk_vt_wrapper.so|af4d486c516c920ea99c362aebbf04180e96035c
 system_ext/lib64/libsignal.so|0f55bb64c660fe4cda2b695121580b054f026e73
-system_ext/lib64/libsink.so
-system_ext/lib64/libsource.so|02e6aea1e67f2591b84a84ca42fd122bdd2801b1
+system_ext/lib64/libsink.so|e4c6bf7dca30d5de2a4f7521a97aca51c0f85cfe
+system_ext/lib64/libsource.so|a9f4156f17c1e403ddf5e1cc602c88a034dc483b
 system_ext/lib64/libvcodec_cap.so|6973253cb2e4ddf365451ed2ac8db9d04085bc4a
 system_ext/lib64/libvcodec_capenc.so|5527525dfcd25169bc380ac53d8181ffa1429c6f
 system_ext/lib64/libvt_avsync.so|632cb05532ef2e022072d91bff3c1ae47c888b7e
@@ -798,10 +798,16 @@ vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so|bb9ff554802e
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so|5e228669d2c575e38fc02a13404f31bc22494b87
 
 # IMS-System
-system_ext/lib/vendor.mediatek.hardware.mtkradioex@1.0.so
+system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so
+system_ext/lib/android.hardware.radio.config@1.1.so
+system_ext/lib/android.hardware.radio.config@1.2.so
+system_ext/lib/android.hardware.radio.config@1.3.so
 system_ext/lib64/vendor.mediatek.hardware.dmc@1.1.so
 system_ext/lib64/vendor.mediatek.hardware.dmc@1.2.so
-system_ext/lib64/vendor.mediatek.hardware.mtkradioex@1.0.so
+system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
+system_ext/lib64/android.hardware.radio.config@1.1.so
+system_ext/lib64/android.hardware.radio.config@1.2.so
+system_ext/lib64/android.hardware.radio.config@1.3.so
 
 # Power
 vendor/lib64/vendor.mediatek.hardware.power@1.1.so
@@ -905,7 +911,6 @@ vendor/lib64/vendor.mediatek.hardware.mms@1.3.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.4.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.5.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.6.so
-vendor/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
 vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so
 vendor/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so
