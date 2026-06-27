@@ -77,9 +77,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth-service.mediatek \
     android.hardware.bluetooth.audio-impl
 
-
-
-
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0.vendor \
@@ -482,10 +479,6 @@ PRODUCT_PACKAGES += \
     libshim_sensors \
     libsensorndkbridge \
     libpower.vendor
-
-# Shims
-PRODUCT_PACKAGES += \
-    libpiex_shim
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

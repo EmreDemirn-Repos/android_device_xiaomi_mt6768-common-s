@@ -98,10 +98,6 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             sed -i 's|\xc0\x03_\xd6\x00\x00\x00\x00\xff\x03\x01\xd1\xfd{\x02\xa9|\xc0\x03_\xd6\x00\x00\x00\x00\xc0\x03_\xd6\xfd{\x02\xa9|g' "${2}"
             ;;
-	vendor/lib64/libmi_watermark.so)
-            [ "$2" = "" ] && return 0
-            "${PATCHELF}" --add-needed "libpiex_shim.so" "${2}"
-            ;;
         system_ext/lib64/libsource.so)
             [ "$2" = "" ] && return 0
             grep -q libui_shim.so "$2" || "$PATCHELF" --add-needed libui_shim.so "$2"
