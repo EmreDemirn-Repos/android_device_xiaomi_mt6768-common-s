@@ -124,6 +124,7 @@ function blob_fixup() {
             ;;
          vendor/lib64/libmtkcam_grallocutils.so | vendor/lib64/libmtkisp_metadata.so)
             "${PATCHELF}" --replace-needed "libui.so" "libui-v34.so" "${2}"
+            "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "$2"
             ;;
         *)
             return 1
