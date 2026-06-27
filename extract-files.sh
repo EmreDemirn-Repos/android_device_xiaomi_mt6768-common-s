@@ -70,12 +70,13 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --add-needed "libshim_showlogo.so" "${2}"
             ;;
-        vendor/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so|\
-        vendor/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so|\
+        vendor/lib*/hw/vendor.mediatek.hardware.pq@2.13-impl.so|\
         vendor/lib*/hw/android.hardware.thermal@2.0-impl.so|\
 	vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service)
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
+            "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
+            "${PATCHELF}" --replace-needed "libtinyxml2.so" "libtinyxml2-v34.so" "${2}"
             ;;
         vendor/lib*/libmtkcam_stdutils.so)
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "$2"
