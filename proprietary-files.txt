@@ -720,6 +720,7 @@ vendor/lib/libcodec2_soft_mtk_apedec.so
 vendor/lib/libcodec2_soft_mtk_imaadpcmdec.so
 vendor/lib/libcodec2_soft_mtk_mp3dec.so
 vendor/lib/libcodec2_soft_mtk_msadpcmdec.so
+vendor/lib/libcodec2_soft_mtk_wmadec.so|2d216b37b7f4e7fe0f0f3389ec26e9036568bc6c
 vendor/lib/libh264dec_customize.so
 vendor/lib/libh264dec_sa.ca7.so
 vendor/lib/libh264dec_sd.ca7.so
@@ -736,6 +737,9 @@ vendor/lib/libvp8enc_sa.ca7.so
 vendor/lib/libvp9dec_sa.ca7.so
 vendor/lib/libvpu5.so
 vendor/lib/libvpud_vcodec.so
+vendor/lib/libadpcmdec_mtk.so
+vendor/lib/libalacdec_mtk.so
+vendor/lib/libmp3dec_mtk.so
 vendor/etc/vintf/manifest/manifest_media_c2_V1_1_default.xml:vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml
 vendor/lib/libcodec2_vpp_qt_plugin.so
 vendor/lib/libcodec2_vpp_rs_plugin.so
@@ -748,9 +752,13 @@ vendor/lib64/libcodec2_soft_mtk_apedec.so
 vendor/lib64/libcodec2_soft_mtk_imaadpcmdec.so
 vendor/lib64/libcodec2_soft_mtk_mp3dec.so
 vendor/lib64/libcodec2_soft_mtk_msadpcmdec.so
+vendor/lib64/libcodec2_soft_mtk_wmadec.so|21206dbe8841b81277ddcfb033e3ef23fedb4d4a
 vendor/lib64/libcodec2_vpp_qt_plugin.so
 vendor/lib64/libcodec2_vpp_rs_plugin.so
 vendor/lib64/libformatter.so
+vendor/lib64/libadpcmdec_mtk.so
+vendor/lib64/libalacdec_mtk.so
+vendor/lib64/libmp3dec_mtk.so
 
 # Media (Configs)
 vendor/etc/mtk_omx_core.cfg
