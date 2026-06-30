@@ -392,7 +392,7 @@ vendor/lib64/libwvhidl.so
 # Graphics
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
 vendor/bin/hw/android.hardware.memtrack-service.mediatek
-vendor/bin/vpud|d962f8acc014877ce84af051fab4bd955b179763aec65d526ffb77f80087dfcc
+vendor/bin/vpud
 vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc
 vendor/etc/init/vpud.rc
 -vendor/etc/vintf/manifest/manifest_hwcomposer.xml
@@ -423,7 +423,7 @@ vendor/lib/libion_ulit.so
 vendor/lib/libmml.so
 vendor/lib/libpqframework.so
 vendor/lib/libvpud_vcodec.so
-vendor/lib64/egl/libGLES_mali.so;SYMLINK=vendor/lib64/hw/vulkan.mt6768.so
+vendor/lib64/egl/libGLES_mali.so
 vendor/lib64/egl/libGLES_meow.so
 vendor/lib64/egl/libMEOW_data.so
 vendor/lib64/egl/libMEOW_gift.so
