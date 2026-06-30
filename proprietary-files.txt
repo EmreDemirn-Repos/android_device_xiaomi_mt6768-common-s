@@ -210,7 +210,7 @@ vendor/lib64/lib_speech_enh.so
 vendor/lib64/libaudio_param_parser-vnd.so
 vendor/lib64/libaudiocomponentengine_vendor.so
 vendor/lib64/libaudiocomponentenginec.so
-vendor/lib64/libalacdec_mtk.sp
+vendor/lib64/libalacdec_mtk.so
 vendor/lib64/libadpcmdec_mtk.so
 vendor/lib64/libaudiodcrflt_vendor.so
 vendor/lib64/libaudiofmtconv.so
