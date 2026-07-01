@@ -198,7 +198,6 @@ vendor/lib/libaurisysdemo.so
 vendor/lib/libbessound_hd_mtk_vendor.so
 vendor/lib/libblisrc32_vendor.so
 vendor/lib/libcvsd_mtk.so
-vendor/lib/libmisound.so
 vendor/lib/libspeech_enh_lib.so
 vendor/lib/libspeechparser_vendor.so
 vendor/lib/vendor.mediatek.hardware.audio@6.1.so
@@ -221,7 +220,6 @@ vendor/lib64/libaurisysdemo.so
 vendor/lib64/libbessound_hd_mtk_vendor.so
 vendor/lib64/libblisrc32_vendor.so
 vendor/lib64/libcvsd_mtk.so
-vendor/lib64/libmisound.so
 vendor/lib64/libmiStereoFactoryRemapLib.so
 vendor/lib64/libmnetlink_v104.so
 vendor/lib64/libmnl.so
