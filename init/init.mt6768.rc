@@ -1110,3 +1110,6 @@ on property:sys.boot_completed=1
 
     # Enable suspend to RAM
     write /sys/power/mem_sleep "deep"
+    
+on property:sys.boot_completed=1
+    restart android-hardware-media-c2-hal-1-2

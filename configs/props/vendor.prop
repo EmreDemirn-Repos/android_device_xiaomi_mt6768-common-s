@@ -162,6 +162,11 @@ persist.vendor.mtk.volte.enable=1
 persist.vendor.vilte_support=0
 persist.vendor.viwifi_support=0
 
+# Media
+media.c2.hal.selection=aidl
+debug.mediatek.disp_decompress=1
+debug.stagefright.c2inputsurface=-1
+
 # MIUI
 sys.fp.miui.token=0
 persist.sys.spc.enabled=true
