@@ -325,10 +325,10 @@ PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 endif
 
-$(call soong_config_set_bool,android_hardware_mediatek_codec2,link_v33_libstagefright_foundation,true)
 # Media
 PRODUCT_PACKAGES += \
-    android.hardware.media.c2-mtk-service \
+    libcodec2_hidl@1.1.vendor \
+    libcodec2_hidl@1.2.vendor \
     libavservices_minijail.vendor \
     libstagefright_softomx_plugin.vendor \
     libsfplugin_ccodec_utils.vendor \
@@ -336,6 +336,7 @@ PRODUCT_PACKAGES += \
     libstagefright_foundation-v33
 
 PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/seccomp,$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy) \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/media,$(TARGET_COPY_OUT_VENDOR)/etc)
 
 PRODUCT_PACKAGES += \

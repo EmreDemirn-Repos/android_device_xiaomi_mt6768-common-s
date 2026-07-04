@@ -110,6 +110,15 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --add-needed "libbase_shim.so" "${2}"
             ;;
+	vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml)
+            [ "$2" = "" ] && return 0
+	    sed -i 's/1.1/1.2/' "${2}"
+            ;;
+	vendor/bin/hw/android.hardware.media.c2@1.2-mediatek)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --add-needed "libstagefright_foundation-v33.so" "${2}"
+            "${PATCHELF}" --replace-needed "libavservices_minijail_vendor.so" "libavservices_minijail.so" "${2}"
+            ;;
          vendor/lib64/libmtkcam_grallocutils.so | vendor/lib64/libmtkisp_metadata.so)
             "${PATCHELF}" --replace-needed "libui.so" "libui-v34.so" "${2}"
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "$2"
