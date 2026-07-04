@@ -45,7 +45,7 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/lib64/hw/fingerprint.mt6768.so': blob_fixup()
         .binary_regex_replace(b'\xc0\x03_\xd6\x00\x00\x00\x00\xff\x03\x01\xd1\xfd{\x02\xa9', b'\xc0\x03_\xd6\x00\x00\x00\x00\xc0\x03_\xd6\xfd{\x02\xa9'),
     ('vendor/lib/libwvhidl.so', 'vendor/lib64/libwvhidl.so', 'vendor/lib/mediadrm/libwvdrmengine.so', 'vendor/lib64/mediadrm/libwvdrmengine.so'): blob_fixup()
-	.replace_needed('libprotobuf-cpp-lite-3.9.1.so', 'libprotobuf-cpp-lite.so')
+	.replace_needed('libprotobuf-cpp-lite-3.9.1.so', 'libprotobuf-cpp-lite-3.9.1-v31.so')
         .add_needed('libcrypto_shim.so'),
     'vendor/bin/hw/mtkfusionrild': blob_fixup()
 	.add_needed('libutils-v32.so'),
