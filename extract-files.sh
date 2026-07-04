@@ -72,7 +72,7 @@ function blob_fixup() {
             ;;
         vendor/lib*/hw/vendor.mediatek.hardware.pq@2.13-impl.so|\
         vendor/lib*/hw/android.hardware.thermal@2.0-impl.so|\
-        vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service)
+	vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service)
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
             "${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${2}"
@@ -110,17 +110,9 @@ function blob_fixup() {
             [ "$2" = "" ] && return 0
             "${PATCHELF}" --add-needed "libbase_shim.so" "${2}"
             ;;
-        vendor/lib64/libmtkcam_grallocutils.so | vendor/lib64/libmtkisp_metadata.so)
+         vendor/lib64/libmtkcam_grallocutils.so | vendor/lib64/libmtkisp_metadata.so)
             "${PATCHELF}" --replace-needed "libui.so" "libui-v34.so" "${2}"
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "$2"
-            ;;
-        vendor/lib64/libcodec2_mtk_c2store.so|\
-        vendor/lib64/libcodec2_mtk_vdec.so|\
-        vendor/lib64/libcodec2_mtk_venc.so|\
-        vendor/lib64/libcodec2_vpp_qt_plugin.so|\
-        vendor/lib64/libcodec2_vpp_rs_plugin.so)
-            [ "$2" = "" ] && return 0
-            "${PATCHELF}" --replace-needed "libstagefright_foundation.so" "libstagefright_foundation-v33.so" "${2}"
             ;;
         *)
             return 1
