@@ -675,10 +675,10 @@ vendor/lib/libstagefrighthw.so
 vendor/lib/libthha.so
 vendor/lib/libvc1dec_sa.ca7.so
 vendor/lib/libvcodec_oal.so
-vendor/lib/libvcodec_utility.so|4eff6c8e222d0db26bc80e51a77acd194474b4f47a9cdb334a6a05acff4233b6
+vendor/lib/libvcodec_utility.so
 vendor/lib/libvp8dec_sa.ca7.so
 vendor/lib/libvp8enc_sa.ca7.so
-vendor/lib/libvp9dec_sa.ca7.so|a5d997d31798bf108d21ec875d9caf9fa5492a2dc95d54ade7813b0afdb339f8
+vendor/lib/libvp9dec_sa.ca7.so
 vendor/lib/libvpu5.so
 vendor/lib64/AVCSecureVdecCA.so
 vendor/lib64/VP9SecureVdecCA.so
