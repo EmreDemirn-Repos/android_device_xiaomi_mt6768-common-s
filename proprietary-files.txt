@@ -815,7 +815,6 @@ vendor/etc/virtual-spn-conf-by-efpnn.xml
 vendor/etc/virtual-spn-conf-by-efspn.xml
 vendor/etc/virtual-spn-conf-by-imsi.xml
 vendor/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so
-vendor/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so
 vendor/lib/libcares_naptr.so
 vendor/lib/libccci_util.so
 vendor/lib/libcurl_xcap_md.so
