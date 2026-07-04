@@ -102,25 +102,25 @@ vendor/etc/audio_param_global/MicInfo_ParamUnitDesc.xml
 vendor/etc/audio_param_global/PlaybackACF_ParamUnitDesc.xml
 vendor/etc/audio_param_global/PlaybackHCF_AudioParam.xml
 vendor/etc/audio_param_global/PlaybackHCF_ParamUnitDesc.xml
-vendor/etc/audio_param_global/Playback_ParamTreeView.xml
-vendor/etc/audio_param_global/Playback_ParamUnitDesc.xml
 vendor/etc/audio_param_global/PlaybackVolAna_ParamUnitDesc.xml
 vendor/etc/audio_param_global/PlaybackVolDigi_ParamUnitDesc.xml
 vendor/etc/audio_param_global/PlaybackVolUI_AudioParam.xml
 vendor/etc/audio_param_global/PlaybackVolUI_ParamUnitDesc.xml
+vendor/etc/audio_param_global/Playback_ParamTreeView.xml
+vendor/etc/audio_param_global/Playback_ParamUnitDesc.xml
 vendor/etc/audio_param_global/RecordDMNR_AudioParam.xml
 vendor/etc/audio_param_global/RecordDMNR_ParamUnitDesc.xml
 vendor/etc/audio_param_global/RecordFIR_ParamUnitDesc.xml
-vendor/etc/audio_param_global/Record_ParamTreeView.xml
-vendor/etc/audio_param_global/Record_ParamUnitDesc.xml
 vendor/etc/audio_param_global/RecordUI_AudioParam.xml
 vendor/etc/audio_param_global/RecordUI_ParamUnitDesc.xml
 vendor/etc/audio_param_global/RecordVolUI_AudioParam.xml
 vendor/etc/audio_param_global/RecordVolUI_ParamUnitDesc.xml
-vendor/etc/audio_param_global/RingbackVol_AudioParam.xml
-vendor/etc/audio_param_global/RingbackVol_ParamUnitDesc.xml
+vendor/etc/audio_param_global/Record_ParamTreeView.xml
+vendor/etc/audio_param_global/Record_ParamUnitDesc.xml
 vendor/etc/audio_param_global/RingbackVolUI_AudioParam.xml
 vendor/etc/audio_param_global/RingbackVolUI_ParamUnitDesc.xml
+vendor/etc/audio_param_global/RingbackVol_AudioParam.xml
+vendor/etc/audio_param_global/RingbackVol_ParamUnitDesc.xml
 vendor/etc/audio_param_global/SmartPa_ParamUnitDesc.xml
 vendor/etc/audio_param_global/SoundEnhancement_ParamUnitDesc.xml
 vendor/etc/audio_param_global/SpeechDMNR_ParamUnitDesc.xml
@@ -130,45 +130,40 @@ vendor/etc/audio_param_global/SpeechMagiClarity_AudioParam.xml
 vendor/etc/audio_param_global/SpeechMagiClarity_ParamUnitDesc.xml
 vendor/etc/audio_param_global/SpeechNetwork_AudioParam.xml
 vendor/etc/audio_param_global/SpeechNetwork_ParamUnitDesc.xml
-vendor/etc/audio_param_global/Speech_ParamTreeView.xml
-vendor/etc/audio_param_global/Speech_ParamUnitDesc.xml
 vendor/etc/audio_param_global/SpeechUI_AudioParam.xml
 vendor/etc/audio_param_global/SpeechUI_ParamUnitDesc.xml
-vendor/etc/audio_param_global/SpeechVol_ParamUnitDesc.xml
 vendor/etc/audio_param_global/SpeechVolUI_AudioParam.xml
 vendor/etc/audio_param_global/SpeechVolUI_ParamUnitDesc.xml
-vendor/etc/audio_param_global/Ultrasound_AudioParam.xml
-vendor/etc/audio_param_global/Ultrasound_ParamUnitDesc.xml
-vendor/etc/audio_param_global/UplinkConfiguration_AudioParam.xml
-vendor/etc/audio_param_global/UplinkConfiguration_ParamUnitDesc.xml
+vendor/etc/audio_param_global/SpeechVol_ParamUnitDesc.xml
+vendor/etc/audio_param_global/Speech_ParamTreeView.xml
+vendor/etc/audio_param_global/Speech_ParamUnitDesc.xml
 vendor/etc/audio_param_global/USBCall_AudioParam.xml
 vendor/etc/audio_param_global/USBCall_ParamUnitDesc.xml
 vendor/etc/audio_param_global/USBDevice_AudioParam.xml
 vendor/etc/audio_param_global/USBDevice_ParamUnitDesc.xml
+vendor/etc/audio_param_global/Ultrasound_AudioParam.xml
+vendor/etc/audio_param_global/Ultrasound_ParamUnitDesc.xml
+vendor/etc/audio_param_global/UplinkConfiguration_AudioParam.xml
+vendor/etc/audio_param_global/UplinkConfiguration_ParamUnitDesc.xml
+vendor/etc/audio_param_global/VOW_AudioParam.xml
+vendor/etc/audio_param_global/VOW_ParamUnitDesc.xml
 vendor/etc/audio_param_global/VoIPDMNR_AudioParam.xml
 vendor/etc/audio_param_global/VoIPDMNR_ParamUnitDesc.xml
 vendor/etc/audio_param_global/VoIPGeneral_AudioParam.xml
 vendor/etc/audio_param_global/VoIPGeneral_ParamUnitDesc.xml
-vendor/etc/audio_param_global/VoIP_ParamTreeView.xml
-vendor/etc/audio_param_global/VoIP_ParamUnitDesc.xml
 vendor/etc/audio_param_global/VoIPUI_AudioParam.xml
 vendor/etc/audio_param_global/VoIPUI_ParamUnitDesc.xml
-vendor/etc/audio_param_global/VoIPv2General_AudioParam.xml
-vendor/etc/audio_param_global/VoIPv2General_ParamUnitDesc.xml
-vendor/etc/audio_param_global/VoIPv2_ParamTreeView.xml
-vendor/etc/audio_param_global/VoIPv2_ParamUnitDesc.xml
-vendor/etc/audio_param_global/VoIPv2UI_AudioParam.xml
-vendor/etc/audio_param_global/VoIPv2UI_ParamUnitDesc.xml
-vendor/etc/audio_param_global/VoIPVol_ParamUnitDesc.xml
 vendor/etc/audio_param_global/VoIPVolUI_AudioParam.xml
 vendor/etc/audio_param_global/VoIPVolUI_ParamUnitDesc.xml
-vendor/etc/audio_param_global/Volume_AudioParam.xml
-vendor/etc/audio_param_global/VolumeGainMap_AudioParam.xml
-vendor/etc/audio_param_global/VolumeGainMap_ParamUnitDesc.xml
-vendor/etc/audio_param_global/VolumeGainMapUL_AudioParam.xml
-vendor/etc/audio_param_global/VolumeGainMapUL_ParamUnitDesc.xml
-vendor/etc/audio_param_global/Volume_ParamUnitDesc.xml
-vendor/etc/audio_param_global/VOW_AudioParam.xml
+vendor/etc/audio_param_global/VoIPVol_ParamUnitDesc.xml
+vendor/etc/audio_param_global/VoIP_ParamTreeView.xml
+vendor/etc/audio_param_global/VoIP_ParamUnitDesc.xml
+vendor/etc/audio_param_global/VoIPv2General_AudioParam.xml
+vendor/etc/audio_param_global/VoIPv2General_ParamUnitDesc.xml
+vendor/etc/audio_param_global/VoIPv2UI_AudioParam.xml
+vendor/etc/audio_param_global/VoIPv2UI_ParamUnitDesc.xml
+vendor/etc/audio_param_global/VoIPv2_ParamTreeView.xml
+vendor/etc/audio_param_global/VoIPv2_ParamUnitDesc.xml
 vendor/etc/audio_param_global/VoWDspAec_AudioParam.xml
 vendor/etc/audio_param_global/VoWDspAec_ParamUnitDesc.xml
 vendor/etc/audio_param_global/VoWEngineFeature_AudioParam.xml
@@ -177,9 +172,14 @@ vendor/etc/audio_param_global/VoWHwVad_AudioParam.xml
 vendor/etc/audio_param_global/VoWHwVad_ParamUnitDesc.xml
 vendor/etc/audio_param_global/VoWMicSetting_AudioParam.xml
 vendor/etc/audio_param_global/VoWMicSetting_ParamUnitDesc.xml
-vendor/etc/audio_param_global/VOW_ParamUnitDesc.xml
 vendor/etc/audio_param_global/VoWVoiceCommand_AudioParam.xml
 vendor/etc/audio_param_global/VoWVoiceCommand_ParamUnitDesc.xml
+vendor/etc/audio_param_global/VolumeGainMapUL_AudioParam.xml
+vendor/etc/audio_param_global/VolumeGainMapUL_ParamUnitDesc.xml
+vendor/etc/audio_param_global/VolumeGainMap_AudioParam.xml
+vendor/etc/audio_param_global/VolumeGainMap_ParamUnitDesc.xml
+vendor/etc/audio_param_global/Volume_AudioParam.xml
+vendor/etc/audio_param_global/Volume_ParamUnitDesc.xml
 vendor/etc/aurisys_config.xml
 vendor/lib/hw/audio.r_submix.mt6768.so
 vendor/lib/lib_iir.so
@@ -206,11 +206,11 @@ vendor/lib64/hw/audio.r_submix.mt6768.so
 vendor/lib64/libMtkSpeechEnh.so
 vendor/lib64/lib_iir.so
 vendor/lib64/lib_speech_enh.so
+vendor/lib64/libadpcmdec_mtk.so
+vendor/lib64/libalacdec_mtk.so
 vendor/lib64/libaudio_param_parser-vnd.so
 vendor/lib64/libaudiocomponentengine_vendor.so
 vendor/lib64/libaudiocomponentenginec.so
-vendor/lib64/libalacdec_mtk.so
-vendor/lib64/libadpcmdec_mtk.so
 vendor/lib64/libaudiodcrflt_vendor.so
 vendor/lib64/libaudiofmtconv.so
 vendor/lib64/libaudioloudc.so
@@ -224,8 +224,8 @@ vendor/lib64/libmiStereoFactoryRemapLib.so
 vendor/lib64/libmnetlink_v104.so
 vendor/lib64/libmnl.so
 vendor/lib64/libmsbc_mtk.so
-vendor/lib64/libmtk-fusion-ril-prop-vsim.so
 vendor/lib64/libmsnr.so
+vendor/lib64/libmtk-fusion-ril-prop-vsim.so
 vendor/lib64/libspeech_enh_lib.so
 vendor/lib64/libspeechparser_vendor.so
 vendor/lib64/libstereoinfoaccessor_vsdof.so
@@ -252,8 +252,8 @@ vendor/etc/camera/mibokeh_mt6768_parameter.bin
 vendor/etc/init/camerahalserver.rc
 vendor/etc/sceneDetection.xml
 vendor/lib/libcam.halsensor.hwintegration.so
-vendor/lib/mt6768/libmtk_drvb.so
 vendor/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so
+vendor/lib64/mt6768/libmtk_drvb.so
 vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
 vendor/lib64/lib3a.ae.core.so
 vendor/lib64/lib3a.ae.so
@@ -268,6 +268,7 @@ vendor/lib64/lib3a.gma.so
 vendor/lib64/lib3a.lce.so
 vendor/lib64/lib3a.log.so
 vendor/lib64/lib3a.n3d3a.so
+vendor/lib64/libSQLiteModule_VER_ALL.so
 vendor/lib64/libabfadp.so
 vendor/lib64/libalLDC.so
 vendor/lib64/libalhLDC.so
@@ -326,7 +327,6 @@ vendor/lib64/libmialgo_sd.so
 vendor/lib64/libmialgo_utils.so
 vendor/lib64/libmibokeh_mt6768.so
 vendor/lib64/libmpbase.so
-vendor/lib64/mt6768/libmtk_drvb.so
 vendor/lib64/libmtkcam.eventcallback.so
 vendor/lib64/libmtkcam.featurepipe.vsdof_util.so
 vendor/lib64/libmtkcam_3rdparty.core.so
@@ -363,7 +363,6 @@ vendor/lib64/libmtkcam_vsync_util.so
 vendor/lib64/libmtkisp_metadata.so
 vendor/lib64/libremosaic_wrapper.so
 vendor/lib64/libremosaiclib.so
-vendor/lib64/libSQLiteModule_VER_ALL.so
 vendor/lib64/libvidhance.so
 vendor/lib64/libwa_ancbase.so
 vendor/lib64/vendor.mediatek.hardware.camera.atms@1.0.so
@@ -403,13 +402,13 @@ vendor/lib/egl/libMEOW_qt.so
 vendor/lib/egl/libMEOW_trace.so
 vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
+vendor/lib/mt6768/libdpframework.so
+vendor/lib/mt6768/libnir_neon_driver.so
 vendor/lib/arm.graphics-V1-ndk_platform.so
 vendor/lib/libDefaultFpsActor.so
 vendor/lib/libFrameRecord.so
 vendor/lib/libNoFpsActor.so
 vendor/lib/libOpenCL.so
-vendor/lib/mt6768/libdpframework.so
-vendor/lib/mt6768/libnir_neon_driver.so
 vendor/lib/libged.so
 vendor/lib/libgpu_aux.so
 vendor/lib/libgpud.so
@@ -430,14 +429,14 @@ vendor/lib64/egl/libMEOW_trace.so
 vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-mediatek.so
 vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-mediatek.so
 vendor/lib64/hw/hwcomposer.mt6768.so
+vendor/lib64/mt6768/libdpframework.so
+vendor/lib64/mt6768/libnir_neon_driver.so
 vendor/lib64/arm.graphics-V1-ndk_platform.so
-vendor/lib64/libcomposer_ext.so
 vendor/lib64/libDefaultFpsActor.so
 vendor/lib64/libFrameRecord.so
 vendor/lib64/libNoFpsActor.so
 vendor/lib64/libOpenCL.so
-vendor/lib64/mt6768/libdpframework.so
-vendor/lib64/mt6768/libnir_neon_driver.so
+vendor/lib64/libcomposer_ext.so
 vendor/lib64/libged.so
 vendor/lib64/libgpu_aux.so
 vendor/lib64/libgpud.so
@@ -520,9 +519,9 @@ vendor/bin/mtk_agpsd
 vendor/etc/init/android.hardware.gnss-service.mediatek.rc
 vendor/etc/init/init.bip.rc
 vendor/etc/init/mtk_agpsd_p.rc
-vendor/lib/hw/gps.default.so
 vendor/etc/vintf/manifest/gnss-default.xml:vendor/etc/vintf/manifest/gnss-mtk.xml
 vendor/etc/vintf/manifest/gnss@2.1-service.xml:vendor/etc/vintf/manifest/gnss@2.1-service-mtk.xml
+vendor/lib/hw/gps.default.so
 vendor/lib/libcrypto-mdapp.so
 vendor/lib/libcurl-md.so
 vendor/lib/librpc.so
@@ -531,12 +530,12 @@ vendor/lib/libviagpsrpc.so
 vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so
 vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so
 vendor/lib64/hw/gps.default.so
+vendor/lib64/libDR.so
+vendor/lib64/libcharon-ss.so
 vendor/lib64/libcrypto-mdapp.so
 vendor/lib64/libcurl-md.so
-vendor/lib64/libssl-mdapp.so
-vendor/lib64/libcharon-ss.so
-vendor/lib64/libDR.so
 vendor/lib64/librpc.so
+vendor/lib64/libssl-mdapp.so
 vendor/lib64/libviagpsrpc.so
 
 # GPS (Configs)
@@ -567,9 +566,7 @@ vendor/lib64/hw/libSoftGatekeeper.so
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@4.1-service.beanpod
 vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service
-vendor/bin/bp_kmsetkey_ca
 vendor/etc/init/android.hardware.keymaster@4.1-service.beanpod.rc
-vendor/etc/init/microtrust.bp_kmsetkey_ca.rc
 vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc
 vendor/lib/hw/kmsetkey.beanpod.so
 vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
@@ -582,7 +579,6 @@ vendor/lib64/libkmsetkey.so
 vendor/lib64/liburee_meta_drmkeyinstall.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
-vendor/lib64/wechat.beanpod.so
 
 # PQ
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
@@ -628,18 +624,18 @@ vendor/etc/init/fuelgauged_nvram_init.rc
 vendor/etc/init/nvram_daemon.rc
 vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc
 vendor/lib/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
+vendor/lib/libconnfem.so
 vendor/lib/libfgauge_gm30.so
 vendor/lib/libfile_op.so
 vendor/lib/libnvram.so
 vendor/lib/libnvram_sec.so
-vendor/lib/libconnfem.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib/vendor.mediatek.hardware.nvram@1.1.so
 vendor/lib64/hw/vendor.mediatek.hardware.nvram@1.1-impl.so
+vendor/lib64/libconnfem.so
 vendor/lib64/libfile_op.so
 vendor/lib64/libnvram.so
 vendor/lib64/libnvram_sec.so
-vendor/lib64/libconnfem.so
 vendor/lib64/libstorage_otp.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
@@ -690,7 +686,6 @@ vendor/lib64/libheichal.so
 vendor/lib64/libhevce_sb.ca7.android.so
 vendor/lib64/libhq_videofilter.so
 vendor/lib64/libicd_decoder.so
-vendor/lib64/libicd_decoder.so
 vendor/lib64/libjpeg-alpha-oal_vendor.so
 vendor/lib64/libjpeg-alpha_vendor.so
 vendor/lib64/libmp3dec_mtk.so
@@ -702,6 +697,7 @@ vendor/lib64/libvideofilter_only.so
 vendor/lib64/libvpu5.so
 
 # Media (Codec2)
+system/lib64/libstagefright_bufferqueue_helper.so:vendor/lib64/libstagefright_bufferqueue_helper-v33.so;FIX_SONAME
 vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b
 vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:vendor/etc/init/android.hardware.media.c2@1.2-mediatek-64b.rc
 vendor/etc/vintf/manifest/manifest_media_c2_V1_1_default.xml:vendor/etc/vintf/manifest/manifest_media_c2_V1_2_default.xml
@@ -716,16 +712,16 @@ vendor/lib/libcodec2_soft_mtk_msadpcmdec.so
 vendor/lib/libcodec2_vpp_qt_plugin.so
 vendor/lib/libcodec2_vpp_rs_plugin.so
 vendor/lib/libformatter.so
-system/lib64/libstagefright_bufferqueue_helper.so:vendor/lib64/libstagefright_bufferqueue_helper-v33.so;FIX_SONAME
 vendor/lib64/libcodec2_hidl@1.0.so:vendor/lib64/libcodec2_hidl@1.0-v31.so;FIX_SONAME
 vendor/lib64/libcodec2_hidl@1.1.so:vendor/lib64/libcodec2_hidl@1.1-v31.so;FIX_SONAME
 vendor/lib64/libcodec2_hidl@1.2.so:vendor/lib64/libcodec2_hidl@1.2-v31.so;FIX_SONAME
 vendor/lib64/libcodec2_hidl_plugin.so:vendor/lib64/libcodec2_hidl_plugin-v31.so;FIX_SONAME
+vendor/lib64/libcodec2_soft_common.so:vendor/lib64/libcodec2_soft_common-v31.so;FIX_SONAME
+vendor/lib64/libcodec2_vndk.so:vendor/lib64/libcodec2_vndk-v31.so;FIX_SONAME
+vendor/lib64/libsfplugin_ccodec_utils.so:vendor/lib64/libsfplugin_ccodec_utils-v31.so;FIX_SONAME
 vendor/lib64/libcodec2_mtk_c2store.so
 vendor/lib64/libcodec2_mtk_vdec.so
 vendor/lib64/libcodec2_mtk_venc.so
-vendor/lib64/libcodec2_soft_common.so:vendor/lib64/libcodec2_soft_common-v31.so;FIX_SONAME
-vendor/lib64/libcodec2_vndk.so:vendor/lib64/libcodec2_vndk-v31.so;FIX_SONAME
 vendor/lib64/libcodec2_soft_mtk_alacdec.so
 vendor/lib64/libcodec2_soft_mtk_apedec.so
 vendor/lib64/libcodec2_soft_mtk_imaadpcmdec.so
@@ -734,9 +730,13 @@ vendor/lib64/libcodec2_soft_mtk_msadpcmdec.so
 vendor/lib64/libcodec2_vpp_qt_plugin.so
 vendor/lib64/libcodec2_vpp_rs_plugin.so
 vendor/lib64/libformatter.so
-vendor/lib64/libsfplugin_ccodec_utils.so:vendor/lib64/libsfplugin_ccodec_utils-v31.so;FIX_SONAME
 
 # IMS
+system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so
+system_ext/lib64/vendor.mediatek.hardware.dmc@1.1.so
+system_ext/lib64/vendor.mediatek.hardware.dmc@1.2.so
+system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
+vendor/bin/hw/vtservice_hidl
 vendor/bin/epdg_wod
 vendor/bin/muxreport
 vendor/bin/volte_imsm_93
@@ -748,6 +748,7 @@ vendor/etc/init/init.volte_imsm_93.rc
 vendor/etc/init/init.volte_md_status.rc
 vendor/etc/init/init.volte_stack.rc
 vendor/etc/init/init.volte_ua.rc
+vendor/etc/init/init.vtservice_hidl.rc
 vendor/etc/init/init.wfca.rc
 vendor/etc/init/init.wod.rc
 vendor/lib/libMtkSpeechEnh.so
@@ -758,37 +759,28 @@ vendor/lib/libmnetlink_v104.so
 vendor/lib/libmsbc_mtk.so
 vendor/lib/libmtcloader.so
 vendor/lib/libmtklimiter_vendor.so
-vendor/lib/libmtkshifter_vendor.so
-vendor/lib/libtranslator_utils.so
 vendor/lib/libvolte_core_shr.so
 vendor/lib/libvolte_xdmc_shr.so
 vendor/lib/libvt_custom.so
 vendor/lib/libwapi.so
 vendor/lib/libwo.so
+vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib64/libasn1c_core.so
 vendor/lib64/libasn1c_mapi.so
 vendor/lib64/libipsec_ims_shr.so
 vendor/lib64/libmtklimiter_vendor.so
 vendor/lib64/libmtkshifter_vendor.so
 vendor/lib64/libmtktinyxml.so
-vendor/lib64/libtranslator_utils.so
 vendor/lib64/libwapi.so
 vendor/lib64/vendor.mediatek.hardware.dmc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.dmc@1.1.so
 vendor/lib64/vendor.mediatek.hardware.dmc@1.2.so
-vendor/bin/hw/vtservice_hidl
-vendor/etc/init/init.vtservice_hidl.rc
-vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
-system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so
-system_ext/lib64/vendor.mediatek.hardware.dmc@1.1.so
-system_ext/lib64/vendor.mediatek.hardware.dmc@1.2.so
-system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
 
 # Power
+vendor/lib64/android.hardware.power-service-mediatek.so
 vendor/lib64/vendor.mediatek.hardware.power@1.1.so
 vendor/lib64/vendor.mediatek.hardware.power@2.0.so
-vendor/lib64/android.hardware.power-service-mediatek.so
 
 # Radio
 vendor/bin/hw/mtkfusionrild
@@ -823,6 +815,7 @@ vendor/etc/virtual-spn-conf-by-efpnn.xml
 vendor/etc/virtual-spn-conf-by-efspn.xml
 vendor/etc/virtual-spn-conf-by-imsi.xml
 vendor/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so
+vendor/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so
 vendor/lib/libcares_naptr.so
 vendor/lib/libccci_util.so
 vendor/lib/libcurl_xcap_md.so
@@ -838,10 +831,10 @@ vendor/lib/libmtksysutils.so
 vendor/lib/libsimlock.so
 vendor/lib/libsimmelock.so
 vendor/lib/libsysenv.so
-vendor/lib/libutinterface_md.so
 vendor/lib/libtranslator_mapi_v3.0.so
 vendor/lib/libtranslator_mdmi_v2.8.2.so
 vendor/lib/libtranslator_utils.so
+vendor/lib/libutinterface_md.so
 vendor/lib/vendor.mediatek.hardware.mms@1.0.so
 vendor/lib/vendor.mediatek.hardware.mms@1.1.so
 vendor/lib/vendor.mediatek.hardware.mms@1.2.so
@@ -850,18 +843,21 @@ vendor/lib/vendor.mediatek.hardware.mms@1.4.so
 vendor/lib/vendor.mediatek.hardware.mms@1.5.so
 vendor/lib/vendor.mediatek.hardware.mms@1.6.so
 vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so
-vendor/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so
+vendor/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so
+vendor/lib64/android.hardware.radio.config@1.1.so
+vendor/lib64/android.hardware.radio.config@1.2.so
+vendor/lib64/android.hardware.radio.config@1.3.so
 vendor/lib64/libcares_naptr.so
 vendor/lib64/libccci_util.so
 vendor/lib64/libcurl_xcap_md.so
 vendor/lib64/libdecrypt.so
 vendor/lib64/libforkexecwrap.so
+vendor/lib64/libmipc.so
 vendor/lib64/libmtkares.so
 vendor/lib64/libmtkconfig.so
 vendor/lib64/libmtkconfigutils.so
 vendor/lib64/libmtkcutils.so
 vendor/lib64/libmtkhardware_legacy.so
-vendor/lib64/libmipc.so
 vendor/lib64/libmtkmipc-ril.so
 vendor/lib64/libmtknetcap.so
 vendor/lib64/libmtknetutils.so
@@ -878,9 +874,9 @@ vendor/lib64/libtranslator_mdmi_v2.8.2.so
 vendor/lib64/libtranslator_utils.so
 vendor/lib64/libtrm.so
 vendor/lib64/libutinterface_md.so
-vendor/lib64/libwpfa.so
 vendor/lib64/libvia-ril.so
 vendor/lib64/libwo.so
+vendor/lib64/libwpfa.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.1.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.2.so
@@ -890,22 +886,18 @@ vendor/lib64/vendor.mediatek.hardware.mms@1.5.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.6.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
 vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so
-vendor/lib64/android.hardware.radio.config@1.1.so
-vendor/lib64/android.hardware.radio.config@1.2.so
-vendor/lib64/android.hardware.radio.config@1.3.so
-vendor/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so
 
 # Neural Networks (APU)
 system_ext/lib64/libapuwareapusys.mtk.so:vendor/lib64/APUWareApusysServer.so;FIX_SONAME
-system_ext/lib64/libapuwarexrp_v2.mtk.so:vendor/lib64/APUWareXrpServer_v2.so;FIX_SONAME
-system_ext/lib64/libapuwarexrp.mtk.so:vendor/lib64/APUWareXrpServer.so;FIX_SONAME
 system_ext/lib64/libapuwarehmp.mtk.so:vendor/lib64/APUWareHmpServer.so;FIX_SONAME
+system_ext/lib64/libapuwarexrp.mtk.so:vendor/lib64/APUWareXrpServer.so;FIX_SONAME
+system_ext/lib64/libapuwarexrp_v2.mtk.so:vendor/lib64/APUWareXrpServer_v2.so;FIX_SONAME
 system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@1.0.so:vendor/lib64/vendor.mediatek.hardware.apuware.apusys@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so:vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so
 system_ext/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so:vendor/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so
+system_ext/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so:vendor/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so:vendor/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so
 system_ext/lib64/vendor.mediatek.hardware.apuware.xrp@2.0.so:vendor/lib64/vendor.mediatek.hardware.apuware.xrp@2.0.so
-system_ext/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so:vendor/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so
 
 # Sensors
 vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek
@@ -963,7 +955,7 @@ vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc
 vendor/etc/vintf/manifest/android.hardware.usb@1.2-service-mediatekv2.xml
 
 # WiFi
-bin/iwpriv;DISABLE_CHECKELF
+system/bin/iwpriv;DISABLE_CHECKELF
 vendor/bin/wmt_launcher
 vendor/bin/wmt_loader
 vendor/lib64/libwifi-hal.so:vendor/lib64/libwifi-hal-mtk.so;FIX_SONAME
