@@ -119,7 +119,6 @@ PRODUCT_COPY_FILES += \
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
-    libprotobuf-cpp-lite-3.9.1-vendorcompat \
     libcrypto_shim.vendor
 
 PRODUCT_PACKAGES += \
@@ -142,7 +141,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.memtrack-service.mediatek \
-    android.hardware.memtrack-V1-ndk_platform
+    android.hardware.memtrack-V1-ndk.vendor
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.common@1.2.vendor \
@@ -184,7 +183,8 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss.measurement_corrections@1.0.vendor \
     android.hardware.gnss.measurement_corrections@1.1.vendor \
     android.hardware.gnss.visibility_control@1.0.vendor \
-    android.hardware.gnss-V1-ndk_platform
+    android.hardware.gnss-V1-ndk.vendor \
+    android.hardware.power-V2-ndk.vendor
 
 PRODUCT_PACKAGES += \
     libcurl.vendor
@@ -465,6 +465,11 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.1.vendor \
     android.hardware.radio.config@1.2.vendor \
     android.hardware.radio.config@1.3.vendor
+
+# Protobuf
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-3.9.1-vendorcompat \
+    libprotobuf-cpp-lite-3.9.1-vendorcompat
 
 # Sensors
 PRODUCT_PACKAGES += \

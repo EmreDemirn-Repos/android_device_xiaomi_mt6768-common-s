@@ -193,6 +193,7 @@ vendor/lib/libaudiodcrflt_vendor.so
 vendor/lib/libaudiofmtconv.so
 vendor/lib/libaudioloudc.so
 vendor/lib/libaudioprimarydevicehalifclient.so
+vendor/lib/libaudiocompensationfilterc.so
 vendor/lib/libaudiotoolkit_vendor.so
 vendor/lib/libaurisysdemo.so
 vendor/lib/libbessound_hd_mtk_vendor.so
@@ -212,6 +213,7 @@ vendor/lib64/libaudio_param_parser-vnd.so
 vendor/lib64/libaudiocomponentengine_vendor.so
 vendor/lib64/libaudiocomponentenginec.so
 vendor/lib64/libaudiodcrflt_vendor.so
+vendor/lib64/libaudiocompensationfilterc.so
 vendor/lib64/libaudiofmtconv.so
 vendor/lib64/libaudioloudc.so
 vendor/lib64/libaudioprimarydevicehalifclient.so
@@ -242,6 +244,8 @@ vendor/lib64/libbt-vendor.so
 
 # Bluetooth (A2DP)
 vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so
+vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so
+vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 
 # Camera
@@ -279,6 +283,7 @@ vendor/lib64/libarcsoft_supernight.so
 vendor/lib64/libc++_shared.so
 vendor/lib64/libc++_shared_vf.so
 vendor/lib64/libcam.chdr.so
+vendor/lib64/libcam.vhdr.so
 vendor/lib64/libcam.hal3a.cctsvr.so
 vendor/lib64/libcam.hal3a.v3.lsctbl.so
 vendor/lib64/libcam.hal3a.v3.nvram.so
@@ -305,6 +310,9 @@ vendor/lib64/libcamalgo.platform.so
 vendor/lib64/libcamalgo.platform2.so
 vendor/lib64/libcamalgo.utility.so
 vendor/lib64/libcamalgo.warp.so
+vendor/lib64/libcameracustom.eis.so
+vendor/lib64/libcameracustom.plugin.so
+vendor/lib64/libcameracustom.so
 vendor/lib64/libcamdrv_imem.so
 vendor/lib64/libcamdrv_isp.so
 vendor/lib64/libcamdrv_tuning_mgr.so
@@ -342,8 +350,18 @@ vendor/lib64/libmtkcam_fdvt.so
 vendor/lib64/libmtkcam_featureutils.so
 vendor/lib64/libmtkcam_fwkutils.so
 vendor/lib64/libmtkcam_grallocutils.so
+vendor/lib64/libmtkcam_hwutils.so
 vendor/lib64/libmtkcam_imem.so
+vendor/lib64/libmtkcam_tuning_utils.so
+vendor/lib64/libcam.halsensor.so
+vendor/lib64/libmtkcam_metastore.so
+vendor/lib64/libmtkcam_pipelinepolicy-smvr.so
+vendor/lib64/libmtkcam_pipelinepolicy.so
+vendor/lib64/libmtkcam_streamutils.so
+vendor/lib64/libfeature.stereo.provider.so
+vendor/lib64/libmtkcam.logicalmodule.so
 vendor/lib64/libmtkcam_imgbuf.so
+vendor/lib64/libmtkcam_metadata.so
 vendor/lib64/libmtkcam_modulefactory_aaa.so
 vendor/lib64/libmtkcam_modulefactory_custom.so
 vendor/lib64/libmtkcam_modulefactory_drv.so
@@ -456,10 +474,10 @@ vendor/lib64/vendor.mediatek.hardware.composer_ext@1.0.so
 # Fingerprint
 vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.mt6768.so;FIX_SONAME
 vendor/lib64/hw/gf_fingerprint.default.so
-vendor/lib64/com.fingerprints.extension@1.0.so
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
 vendor/lib64/libgoodixhwfingerprint.so
+vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so
 
 # Firmware
 vendor/bin/FFU_FW_HW_M.1.B.BIN
@@ -750,6 +768,7 @@ vendor/etc/init/init.wod.rc
 vendor/lib/libMtkSpeechEnh.so
 vendor/lib/libasn1c_core.so
 vendor/lib/libasn1c_mapi.so
+vendor/lib/libasn1c_mdmi.so
 vendor/lib/libipsec_ims_shr.so
 vendor/lib/libmnetlink_v104.so
 vendor/lib/libmsbc_mtk.so
@@ -763,6 +782,7 @@ vendor/lib/libwo.so
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so
 vendor/lib64/libasn1c_core.so
 vendor/lib64/libasn1c_mapi.so
+vendor/lib64/libasn1c_mdmi.so
 vendor/lib64/libipsec_ims_shr.so
 vendor/lib64/libmtklimiter_vendor.so
 vendor/lib64/libmtkshifter_vendor.so
@@ -839,9 +859,6 @@ vendor/lib/vendor.mediatek.hardware.mms@1.5.so
 vendor/lib/vendor.mediatek.hardware.mms@1.6.so
 vendor/lib/vendor.mediatek.hardware.netdagent@1.0.so
 vendor/lib64/hw/vendor.mediatek.hardware.mms@1.6-impl.so
-vendor/lib64/android.hardware.radio.config@1.1.so
-vendor/lib64/android.hardware.radio.config@1.2.so
-vendor/lib64/android.hardware.radio.config@1.3.so
 vendor/lib64/libcares_naptr.so
 vendor/lib64/libccci_util.so
 vendor/lib64/libcurl_xcap_md.so
@@ -879,6 +896,7 @@ vendor/lib64/vendor.mediatek.hardware.mms@1.3.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.4.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.5.so
 vendor/lib64/vendor.mediatek.hardware.mms@1.6.so
+vendor/lib64/vendor.mediatek.hardware.mtkradioex@2.0.so
 vendor/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
 vendor/lib64/vendor.mediatek.hardware.netdagent@1.0.so
 
@@ -986,6 +1004,9 @@ vendor/lib64/libneuropilot_hal_utils.so
 vendor/lib64/libnir_neon_driver_ndk.mtk.vndk.so
 vendor/lib64/libnxp_extamp_intf.so
 vendor/lib64/libtflite_mtk.so
+vendor/lib64/vendor.mediatek.hardware.lbs@1.0.so
+vendor/lib/vendor.mediatek.hardware.mdmonitor@1.0.so
+vendor/lib64/vendor.mediatek.hardware.mdmonitor@1.0.so
 
 # Misc
 vendor/bin/chipinfo
