@@ -30,7 +30,7 @@ if os.path.exists('vendor/xiaomi/lancelot'):
     namespace_imports.append('vendor/xiaomi/lancelot')
 
 blob_fixups: blob_fixups_user_type = {
-    ('vendor/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so', 'vendor/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so', 'vendor/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so', 'vendor/lib/hw/android.hardware.thermal@2.0-impl.so', 'vendor64/lib/hw/android.hardware.thermal@2.0-impl.so'): blob_fixup()
+    ('vendor/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so', 'vendor/lib64/hw/vendor.mediatek.hardware.pq@2.13-impl.so', 'vendor/lib/hw/vendor.mediatek.hardware.pq@2.13-impl.so', 'vendor/lib/hw/android.hardware.thermal@2.0-impl.so', 'vendor/lib64/hw/android.hardware.thermal@2.0-impl.so'): blob_fixup()
         .replace_needed('libutils.so', 'libutils-v32.so')
         .replace_needed('libhidlbase.so', 'libhidlbase-v32.so')
 	.replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
@@ -62,7 +62,8 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libcodec2_hidl@1.0.so', 'libcodec2_hidl@1.0-v31.so')
         .replace_needed('libcodec2_hidl@1.1.so', 'libcodec2_hidl@1.1-v31.so')
         .replace_needed('libcodec2_hidl@1.2.so', 'libcodec2_hidl@1.2-v31.so')
-        .replace_needed('libcodec2_vndk.so', 'libcodec2_vndk-v31.so'),
+        .replace_needed('libcodec2_vndk.so', 'libcodec2_vndk-v31.so')
+	.add_needed('libstagefright_foundation-v33.so'),
     'vendor/lib64/libcodec2_hidl@1.0-v31.so': blob_fixup()
         .replace_needed('libstagefright_bufferqueue_helper.so', 'libstagefright_bufferqueue_helper-v33.so')
         .replace_needed('libcodec2_hidl_plugin.so', 'libcodec2_hidl_plugin-v31.so')
